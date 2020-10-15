@@ -1,0 +1,66 @@
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+/* text-align: center; - Alinhamentos dos intens ao centro em relação ao eixo y.
+min-height: 100vh; - Altura mínina de toda (100) a janela de exibição 
+Display: flex; - forma de visualização dos elementos dentro da página*/
+
+#container {
+    margin: auto;
+
+    width: 90%;
+}
+
+/*margin: auto; - Espaçamento na margem relativo ao eixo y.
+widht - largura do conteúdo*/
+
+.location,
+h1,
+.visit p {
+    height: 16vh;
+}
+
+/* height: 16vh; - Altura de 16 unidades da janela de exibição entre os elementos.*/
+
+.visit a {
+    width: 8rem;
+    height: 8rem;
+    background: #ffd666;
+
+    border: none;
+    border-radius:  3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+
+    transition: background 200ms;
+}
+
+.visit a:hover {
+    background: #96feff;
+}
+
+#logo {
+    animation-delay: 50ms;
+}
+
+.location {
+    animation-delay: 100ms;
+}
+
+main h1 {
+    animation-delay: 150ms;
+}
+
+.visit p {
+    animation-delay: 200ms;
+}

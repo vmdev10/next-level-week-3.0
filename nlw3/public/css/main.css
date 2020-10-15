@@ -1,0 +1,28 @@
+* {
+    margin: 0; /*Margem*/
+    padding: 0; /*Preenchimento*/
+}
+/* O seletor universal '*' se aplica a todos os elementos.*/
+
+body {
+    color: white; /*Cor de fundo*/
+    height: 100vh; /*Altura*/
+}
+/*Chave: height
+Valor: 100vh; Indica que a altura do seletor 'body' deve ocupar toda a janela de exibição.
+*/
+
+:root {
+  font-size: 62.5%;
+}
+/* :Root = Raíz do projeto*/
+/* Font-size = Tamanho da fonte*/
+/*O font-size definido no 'Root' vai servir como parâmetro para as medidas em 'em' e 'rem' de outros elementos, istó é, 
+serão calculadas a partir do valor estabelecido no 'Font-size' do 'Root */
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
